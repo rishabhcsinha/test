@@ -4,7 +4,7 @@ from wtforms import StringField, SubmitField, TextAreaField, IntegerField, Selec
 from wtforms.fields.html5 import DateField
 from wtforms.validators import DataRequired, Length, Regexp, NumberRange
 
-from flaskapp import app
+from app import app
 
 
 @app.route('/',methods=['GET', 'POST'])
